@@ -9,8 +9,8 @@ function Footer() {
             <div className='nav container'>
             <div className="social">
                 <FaInstagram  style={{margin:"5px"}}/>
-                <FaGithub style={{margin:"5px"}}/>
-                <FaLinkedinIn style={{margin:"5px"}}/>
+                <a href="https://github.com/Atayev" target="_blank" rel='noreferrer'><FaGithub style={{margin:"5px"}}/></a>
+                <a href="https://www.linkedin.com/in/atayevibrahim/" target="_blank" rel='noreferrer' ><FaLinkedinIn style={{margin:"5px"}}/></a>
             </div>
             <div className='copyright'>
                 <p>Copyright &copy; {year} All rigths reserved</p>
