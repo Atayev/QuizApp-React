@@ -59,6 +59,7 @@ function Main() {
                     <button key={i} onClick={()=>handleButtonClick(ans.isCorrect)} >{ans.answerText}</button>
                  ))
                  }
+                
                 </div>
                 <button onClick={showQuestion} className={buttonState}>Start</button>
                 <button onClick={()=>document.location.reload()} className={relBtnState}>Restart the Game</button>
